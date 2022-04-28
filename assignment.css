@@ -1,0 +1,258 @@
+main {
+    margin-left: 12em;
+    margin-bottom: 0;
+    padding: 1em;
+    border-left: 2px solid black;
+}
+
+body {
+    background-color: maroon;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+header {
+    color: ghostwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2em;
+    padding-top: 1em;
+    padding-left: 2em;
+
+}
+
+nav {
+    float: left;
+    margin-left: 0;
+    padding-left: 0;
+    width: 190px;
+}
+
+nav a {
+    color: ghostwhite;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 2em;
+    border-bottom: 2px dashed black;
+    height: 2em;
+    
+}
+
+h2 {
+    background-color: orange;
+    color: ghostwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h3 {
+    background-color: maroon;
+    color: ghostwhite;
+    margin-bottom: 0;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+blockquote {
+    background-color: yellow;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 2em;
+    padding: 2em;
+    border: 2px solid black;
+}
+
+div {
+    background-color: orange;
+}
+
+footer {
+    background-color: orange;
+    font-style: italic;
+    font-size: small;
+    margin-bottom: 0;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    border-top: 2px solid black;
+    
+}
+
+#wrapper {
+    background-color: red;
+    margin-left: 2em;
+    margin-right: 2em;
+    border: 2px solid black;
+}
+
+/* Home */
+
+.photo {
+    align-items: center;
+    background-color: red;
+    margin-top: 2em;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.photo img {
+    border: 1em solid maroon;
+}
+
+.openinghours {
+    background-color: red;
+}
+
+.timetable {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    width: 70%;
+}
+
+.timetable td, .timetable th {
+    background-color: orange;
+    border: 1px solid black;
+    
+}
+
+/* Daycare and Tutoring Services */
+
+.daycarephoto {
+    background-color: red;
+}
+
+.daycarephoto img {
+    border: 1em solid maroon;
+}
+
+.qoute, .fees, .activities, .staffonduty, .extra {
+    padding: 1em;
+}
+
+.qoute {
+    margin-top: 1em;
+}
+
+.fees p {
+    font-weight: bold;
+}
+
+.fees table {
+    text-align: center;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    width: 70%;
+}
+
+.fees td, .fees th {
+    background-color: orange;
+    border: 1px solid black;
+    
+}
+
+.activities li, .staffonduty li {
+    font-weight: bold;
+}
+
+.extra p {
+    font-weight: bold;
+}
+
+
+/* Schedules */
+
+.daycaretime {
+    text-align: center;
+    background-color: orange;
+  }
+
+.tuitiontime {
+    text-align: center;
+    background-color: orange;
+    width: auto;
+  }
+  
+.daycaretime table, .daycaretime th, .daycaretime td, .tuitiontime table, .tuitiontime th, .tuitiontime td {
+    border: 1px solid black;
+    border-spacing: 0;
+ }
+
+ .holidays, .events {
+     padding: 1em;
+ }
+
+ /* Contact information */
+
+.subheading {
+    font-style: italic;
+}
+
+.staff {
+    padding: 1em;
+}
+
+.stafflist {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.stafflist a {
+    color: maroon;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.staff table {
+    border: none;
+}
+
+.stafflist td, .stafflist tr {
+    padding: 10px;
+}
+
+.contacts img {
+    padding: 2em;
+}
+
+.faq {
+    margin-top: 0;
+    padding: 1em;
+}
+
+ /* Location */
+
+.location, .facilities {
+    padding: 1em;
+}
+
+.location p, .facilities p {
+    font-weight: bold;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+
+.facilities img {
+    border: 1em solid maroon;
+}
+
+/* Rules and Regulations */
+
+.rules {
+    margin-top: 0;
+    padding: 1em;
+}
